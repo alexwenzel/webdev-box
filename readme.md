@@ -6,7 +6,7 @@ This box is based on [ubuntu/trusty32](https://atlas.hashicorp.com/ubuntu/boxes/
 
 * apache
 * mysql
-* php 5.5
+* php 7
 * sqlite
 * vim
 * git
