@@ -2,6 +2,11 @@
 
 This box is based on [ubuntu/trusty32](https://atlas.hashicorp.com/ubuntu/boxes/trusty32).
 
+## Installation
+
+* download boilerplate from https://github.com/alexwenzel/webdev-box/tree/feat/php7
+* ``vagrant up``
+
 ## Components
 
 * apache
@@ -17,39 +22,19 @@ This box is based on [ubuntu/trusty32](https://atlas.hashicorp.com/ubuntu/boxes/
 
 ## Apache
 
-Web Document Root: 
-
-```
-/var/www
-```
+Web Document Root: ``/var/www``
 
 ## MySQL
 
-User: 
+User: ``root``
 
-```
-root
-```
-
-Password:
-
-```
-root
-```
+Password: ``root``
 
 ## xDebug
 
-Eanbled by trigger: 
+Eanbled by trigger: ``XDEBUG_PROFILE=1``
 
-```
-XDEBUG_PROFILE=1
-```
-
-Output directory: 
-
-```
-/var/www/xdebug/
-```
+Output directory: ``/var/www/xdebug/``
 
 ## Vagrantfile
 
